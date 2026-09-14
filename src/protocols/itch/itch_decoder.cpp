@@ -1,7 +1,7 @@
-#include "../../../include/bmp/protocols/itch/itch_decoder.hpp"
+#include "bmp/protocols/itch/itch_decoder.hpp"
 
-#include "../../../include/bmp/core/byte_reader.hpp"
-#include "../../../include/bmp/protocols/itch/itch_constants.hpp"
+#include "bmp/core/byte_reader.hpp"
+#include "bmp/protocols/itch/itch_constants.hpp"
 
 using namespace bmp::itch;
 using enum DecodeStatus;

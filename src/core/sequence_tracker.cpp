@@ -1,10 +1,13 @@
-#include "../../include/bmp/core/sequence_tracker.hpp"
+#include "bmp/core/sequence_tracker.hpp"
 
 #include <algorithm>
 
+using bmp::core::SequenceResult;
+using bmp::core::SequenceTracker;
+
 SequenceTracker::SequenceTracker(std::string_view session) : session_ { session } {}
 
-using enum SequenceStatus;
+using enum bmp::core::SequenceStatus;
 
 SequenceResult SequenceTracker::register_sequence_number(std::string_view session, std::uint64_t sequence,
                                                          std::uint16_t count) {

@@ -2,10 +2,10 @@
 #ifndef FRAMING_H
 #define FRAMING_H
 
-#include "../core/byte_reader.hpp"
-#include "../core/sequence_tracker.hpp"
-#include "../protocols/itch/itch_constants.hpp"
-#include "../protocols/itch/itch_decoder.hpp"
+#include "bmp/core/byte_reader.hpp"
+#include "bmp/core/sequence_tracker.hpp"
+#include "bmp/protocols/itch/itch_constants.hpp"
+#include "bmp/protocols/itch/itch_decoder.hpp"
 
 #include <cstddef>
 #include <span>
